@@ -5,28 +5,27 @@ using namespace std;
 
 int main()
 {  
-    string str;
+    // string str;
 
-    cout << "Input any string: " ;
+    // cout << "Input any string: " ;
 
-    // cin >> str;
+    // // cin >> str;
 
-    getline(cin, str); 
+    // getline(cin, str); 
 
-    cout << str << endl;
+    // cout << str << endl;
 
-    cout << "Length:  " << str.length() << endl;
-    cout << "is Empty: " << str.empty() << endl;
+    // cout << "Length:  " << str.length() << endl;
+    // cout << "is Empty: " << str.empty() << endl;
 
-    str.push_back('A');
-    cout << "After push back: " << str << endl;
+    // str.push_back('A');
+    // cout << "After push back: " << str << endl;
 
-    str.pop_back();
+    // str.pop_back();
 
-    cout << "AFter pop back: " << str << endl; 
+    // cout << "AFter pop back: " << str << endl; 
 
-    cout << "After substr: " << str.substr(0, 5) << endl;
-
+    // cout << "After substr: " << str.substr(0, 5) << endl;
 
 
     // difference between char array and string
@@ -42,6 +41,11 @@ int main()
 
     // cout << "CHaracter Array : " << arr << endl;
     // cout << "String : " << s << endl;
+
+    string s1 = "Neeraj";
+
+    swap(s1[0], s1[4]);
+    cout << s1 << endl;
     
     return 0;
 }
